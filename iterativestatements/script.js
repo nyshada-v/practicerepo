@@ -30,3 +30,14 @@ function test(a,b){
 }
 let sum=test(a,b);
 console.log("Sum is: " + sum);
+
+//function expression
+let test1 = function(a, b) {
+    return a + b;
+};
+console.log("Sum is: " + test1(10, 25));
+
+//arrow function
+//body has only one statement
+let test2=(a,b)=>a + b;
+console.log("Sum is: " + test2(10, 30));

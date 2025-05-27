@@ -3,6 +3,11 @@
 let a;
 //checking datatype using typeof
 console.log("value of a is: ",a," and of type, ",typeof a);
+//we can use $ to print value of a variable in a string
+//reassigning value to a variable
+a = 10;
+//we use BACKTICKS to print value of a variable in a string
+console.log(`value of a is: ${a}, and of type, ${typeof a}`);
 a=23;
 console.log("value of a is: ",a," and of type, ",typeof a);
 a="hello";
